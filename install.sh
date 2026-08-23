@@ -32,7 +32,11 @@ PACMAN_PKGS=(
     grim
     slurp
     power-profiles-daemon
-    
+
+    # For fastfetch image processing
+    imagemagick     
+    chafa   
+
     # Terminal, Shell & Editors
     kitty
     fish
