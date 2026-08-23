@@ -1,7 +1,0 @@
-2026-08-01 18:33:51.480 [info] StorageMainService: creating application shared storage
-2026-08-01 18:33:51.601 [info] [shared storage] Creating shared storage database at '/home/faizal/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-08-01 18:33:51.602 [info] [shared storage] Initializing fallback application storage (path: /home/faizal/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-08-01 18:33:51.628 [info] [shared storage] Fallback application storage initialized with 77 items
-2026-08-01 18:33:51.630 [info] update#setState disabled
-2026-08-01 18:33:51.630 [info] update#ctor - updates are disabled as there is no update URL
-2026-08-01 18:34:50.569 [info] Extension host with pid 80463 exited with code: 0, signal: unknown.

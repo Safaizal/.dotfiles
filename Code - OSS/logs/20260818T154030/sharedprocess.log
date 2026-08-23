@@ -1,7 +1,0 @@
-2026-08-18 15:40:39.719 [info] Getting Manifest... sumneko.lua
-2026-08-18 15:40:40.483 [info] Installing extension: sumneko.lua {"productVersion":{"version":"1.131.0","date":"2026-07-28T06:40:51Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json","path":"/home/faizal/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
-2026-08-18 15:40:47.278 [info] Extension signature verification result for sumneko.lua: Success. Executed: true. Duration: 721ms.
-2026-08-18 15:40:51.977 [info] Extracted extension to file:///home/faizal/.vscode-oss/extensions/sumneko.lua-3.19.1-linux-x64: sumneko.lua
-2026-08-18 15:40:52.281 [info] Renamed to /home/faizal/.vscode-oss/extensions/sumneko.lua-3.19.1-linux-x64
-2026-08-18 15:40:52.334 [info] Marked extension as removed sumneko.lua-3.18.2-linux-x64
-2026-08-18 15:40:52.348 [info] Extension installed successfully: sumneko.lua vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json
