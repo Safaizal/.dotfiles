@@ -1,0 +1,134 @@
+{
+    "layer": "top",
+    "modules-left": [
+        "wireplumber",
+        "cava",
+        "custom/playing"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+	"network",
+        "battery",
+        "clock",
+	"temperature"
+    ],
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "custom/playing": {
+        "exec": "~/.config/waybar/scripts/playing.sh",
+        "escape": true,
+        "tooltip": false
+    },
+    "temperature": {
+	"thermal-zone": 2,
+    	"critical-threshold": 80,
+	"format": "{temperatureC}°C {icon}",
+    	"format-icons": ["", "", " "]
+    },
+    "network": {
+	"interval": 1,
+	"format-wifi": "󰤨  {essid} | ",
+	"format-ethernet": "  | ",
+	"format-disconnected": "󰟦  | ",
+	"tooltip-format": "Network_Strength: ({signalStrength}%)",
+	"on-click": "~/.config/waybar/scripts/control.sh"
+    },
+    "wireplumber": {
+        "format": "{icon}  {volume}%",
+        "format-muted": " Muted",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-scroll-up": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+        "format-icons": [
+            "",
+            "",
+            ""
+        ]
+    },
+    "cava": {
+        //"cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+        "framerate": 60,
+        "autosens": 0,
+        "sensitivity": 0.001,
+        "bars": 10,
+        "bar_delimiter": 0,
+        "lower_cutoff_freq": 50,
+        "higher_cutoff_freq": 10000,
+        "method": "pipewire",
+        "source": "auto",
+        "stereo": true,
+        "reverse": false,
+        "monstercat": false,
+        "waves": false,
+        "noise_reduction": 0.27,
+        "input_delay": 2,
+        "format-icons": [
+            "▁",
+            "▂",
+            "▃",
+            "▄",
+            "▅",
+            "▆",
+            "▇",
+            "█"
+        ],
+        "actions": {
+            "on-click-right": "mode"
+        }
+    },
+    "battery": {
+	"states": {
+		"warning": 20,
+		"critical": 15,
+		"good": 80
+	},
+        "interval": 1,
+        "format": "{icon} {capacity}% ",
+        "format-icons": {
+            "default": [
+                "󰂎",
+                "󰁺",
+                "󰁻",
+                "󰁼",
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+            ],
+            "charging": [
+                "󰢟",
+                "󰢜",
+                "󰂆",
+                "󰂇",
+                "󰂈",
+                "󰢝",
+                "󰂉",
+                "󰢞",
+                "󰂊",
+                "󰂋",
+                "󰂅"
+            ]
+        }
+    },
+    "clock": {
+        "format": "| {:%a, %d %b  %H:%M} | "
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "active": "",
+            "default": ""
+        }
+    }
+}

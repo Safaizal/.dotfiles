@@ -1,0 +1,79 @@
+2026-08-16 19:06:59.285 [info] Started local extension host with pid 4736.
+2026-08-16 19:06:59.625 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-16 19:07:02.045 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-16 19:07:03.379 [info] Auto updating outdated extensions. sumneko.lua
+2026-08-16 19:07:04.196 [info] [perf] Render performance baseline is 77ms
+2026-08-16 19:07:04.468 [error] [Extension Host] (node:4736) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-08-16 19:07:04.651 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)
+2026-08-16 19:07:04.652 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)
+2026-08-16 19:07:04.653 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)
+2026-08-16 19:07:04.654 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)
+2026-08-16 19:07:04.654 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)
+2026-08-16 19:07:04.655 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)
+2026-08-16 19:07:04.655 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)
+2026-08-16 19:07:04.656 [error] Canceled: Canceled
+    at pw (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:411:1612)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47550
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:47458)
+    at m2.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5405:60757)
+    at tno.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:10621)
+    at eno.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5412:9761)
+    at async nxt._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5411:22956)

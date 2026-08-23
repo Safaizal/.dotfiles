@@ -1,0 +1,56 @@
+configuration {
+    show-icons:                  false;
+}
+
+* {
+    background-color:            transparent;
+    text-color:                  #ffffff;
+    font:                        "JetBrainsMono Nerd Font 24"; /* Big bold icons */
+}
+
+window {
+    width:                        100%;
+    height:                       120%;
+    location:                     center;
+    anchor:                       center;
+    x-offset:                     0;
+    y-offset:                     0;
+    
+    border:                       2px;
+    border-radius:                16px;
+    border-color:                 rgba(255, 255, 255, 0.1);
+    background-color:             rgba(15, 15, 15, 0.4); /* Transparent base for Hyprland blur */
+}
+
+mainbox {
+    padding:                      15px;
+    children:                    [ listview ];
+}
+
+listview {
+    layout:                      horizontal; /* Aligns buttons next to each other */
+    spacing:                     15px;
+    lines:                       3;
+    margin:                      400px;
+    fixed-height:                true;
+    scrollbar:                   false;
+}
+
+element {
+    width:                        125px; /* Box size for each option */
+    padding:                      10px 0px;
+    border-radius:                12px;
+    background-color:            rgba(255, 255, 255, 0.05);
+    cursor:                      pointer;
+}
+
+element selected {
+    background-color:            rgba(255, 255, 255, 0.2);
+    text-color:                  #00ffff; /* Neon accent highlight color */
+}
+
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    cursor:                      inherit;
+}

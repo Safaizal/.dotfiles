@@ -1,0 +1,25 @@
+[config]
+mode = "dark"
+
+[config.custom_colors]
+amanojaku = { color = "#00ff11", blend = false }
+
+[config.wallpaper]
+command = 'awww'
+arguments = ['img', '--transition-type', 'random', '--transition-step', '90', 'transition-fps', '60']
+set = true
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/waybar.css"
+output_path = "~/.config/waybar/themes/colors.css"
+post_hook = "~/.config/waybar/scripts/launch.sh"
+
+[templates.cava]
+input_path = '~/.config/matugen/templates/cava-cus.ini'
+output_path = '~/.config/cava/themes/matugen'
+post_hook = "pkill -USR2 cava"
+
+[templates.swaync]
+input_path = "~/.config/matugen/templates/swaync.css"
+output_path = "~/.config/swaync/themes/colors.css"
+post_hook = "swaync-client -rs"

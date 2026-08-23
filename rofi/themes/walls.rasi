@@ -1,0 +1,63 @@
+configuration {
+    show-icons: true;
+    /* Enables mouse hover to select an element */
+    hover-select: true;
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+}
+
+/* Global Variables */
+* {
+    bg: #1e1e2eE6; /* Hex with alpha for transparency */
+    bg-selected: #313244;
+    border-col: #89b4fa;
+    text-color: #cdd6f4;
+    background-color: transparent;
+}
+
+window {
+    width: 85%;
+    border-radius: 16px;
+    padding: 20px;
+    location: center;
+    anchor: center;
+}
+
+mainbox {
+    children: [ listview ];
+    background-color: transparent;
+}
+
+listview {
+    columns: 6;
+    lines: 1;
+    spacing: 10px;
+    background-color: transparent;
+    cycle: true;
+    dynamic: true;
+    scrollbar: false;
+}
+
+element {
+    orientation: vertical;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+element selected {
+    border: 2px solid;
+    border-color: #ffffff;
+}
+
+element-icon {
+    size: 240px;
+    horizontal-align: 0.5;
+    background-color: transparent;
+    cursor: inherit;
+    border-radius: 12px;
+}
+
+element-text {
+    enabled: false;
+}

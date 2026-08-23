@@ -1,0 +1,102 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "49c783f6be559c1dbefa4b77d07375fd75ac06e8fcb194ec0dcefb916a61781f",
+    "telemetry.devDeviceId": "a15333b7-acda-4324-9a80-29390b09303f",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/faizal/Projects/react/frontend"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/faizal/.config/rofi": "__default__profile__",
+            "file:///home/faizal/.dotfiles": "__default__profile__",
+            "file:///home/faizal/.config/nvim": "__default__profile__",
+            "file:///home/faizal/.config/waybar": "__default__profile__",
+            "file:///home/faizal/Projects/react/frontend": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/faizal/Projects/react/frontend",
+            "backupPath": "/home/faizal/.config/Code - OSS/Backups/c5dfe52e54d42c9af0af6be8b0b81cc7",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 620,
+                "height": 324
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#050404",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#556955",
+            "background": "#050404",
+            "editorBackground": "#050404",
+            "titleBarBackground": "#050404",
+            "titleBarBorder": "#050404",
+            "activityBarBackground": "#050404",
+            "activityBarBorder": "#050404",
+            "sideBarBackground": "#050404",
+            "sideBarBorder": "#050404",
+            "panelBackground": "#050404",
+            "editorGroupBorder": "rgba(85, 105, 85, 0.6)",
+            "agentsPanelBackground": "#050404",
+            "agentsPanelBorder": "rgba(85, 105, 85, 0.15)",
+            "statusBarBackground": "#050404",
+            "statusBarBorder": "#050404",
+            "statusBarNoFolderBackground": "#050404"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "4ceaa7d76155cd9233c5809094f0128d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8b95fb1c54d16c64ce9bc2d172e3fc75": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7668aa65ca1712c6c8acbdeffbce3e8f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "9be360b114f6c4291ca416af4d884378": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8389d5c2096f44d1becb8252eef5a549": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

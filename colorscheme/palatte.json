@@ -1,0 +1,429 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "name": "Amanojaku",
+  "version": "1.0.0",
+  "author": "Faizal S A Safaizal@github.com",
+  "description": "A balanced, accessible color palette system for developer environments.",
+  "flavors": {
+    "abyss": {
+      "name": "Abyss",
+      "type": "dark",
+      "meta": {
+        "contrast": "high",
+        "description": "Deep, high-contrast dark theme optimized for low-light environments"
+      },
+      "colors": {
+        "crust": {
+          "hex": "#0e1117",
+          "rgb": "14, 17, 23",
+          "hsl": "220, 24%, 7%"
+        },
+        "mantle": {
+          "hex": "#12161f",
+          "rgb": "18, 22, 31",
+          "hsl": "220, 27%, 10%"
+        },
+        "base": {
+          "hex": "#181d28",
+          "rgb": "24, 29, 40",
+          "hsl": "221, 25%, 13%"
+        },
+        "surface0": {
+          "hex": "#212836",
+          "rgb": "33, 40, 54",
+          "hsl": "220, 24%, 17%"
+        },
+        "surface1": {
+          "hex": "#2b3447",
+          "rgb": "43, 52, 71",
+          "hsl": "221, 25%, 22%"
+        },
+        "surface2": {
+          "hex": "#374259",
+          "rgb": "55, 66, 89",
+          "hsl": "221, 24%, 28%"
+        },
+        "overlay0": {
+          "hex": "#485672",
+          "rgb": "72, 86, 114",
+          "hsl": "220, 23%, 36%"
+        },
+        "overlay1": {
+          "hex": "#5e6e8c",
+          "rgb": "94, 110, 140",
+          "hsl": "219, 20%, 46%"
+        },
+        "subtext0": {
+          "hex": "#8999b5",
+          "rgb": "137, 153, 181",
+          "hsl": "218, 24%, 62%"
+        },
+        "subtext1": {
+          "hex": "#b0be38",
+          "rgb": "176, 190, 216",
+          "hsl": "219, 34%, 77%"
+        },
+        "text": {
+          "hex": "#e1e7f5",
+          "rgb": "225, 231, 245",
+          "hsl": "222, 50%, 92%"
+        },
+        "red": {
+          "hex": "#f76e7c",
+          "rgb": "247, 110, 124",
+          "hsl": "354, 88%, 70%"
+        },
+        "orange": {
+          "hex": "#f99b61",
+          "rgb": "249, 155, 97",
+          "hsl": "23, 92%, 68%"
+        },
+        "yellow": {
+          "hex": "#f3ca63",
+          "rgb": "243, 202, 99",
+          "hsl": "43, 86%, 67%"
+        },
+        "green": {
+          "hex": "#64d89d",
+          "rgb": "100, 216, 157",
+          "hsl": "150, 60%, 62%"
+        },
+        "cyan": {
+          "hex": "#56d8e5",
+          "rgb": "86, 216, 229",
+          "hsl": "185, 73%, 62%"
+        },
+        "blue": {
+          "hex": "#6ea8fe",
+          "rgb": "110, 168, 254",
+          "hsl": "216, 98%, 71%"
+        },
+        "purple": {
+          "hex": "#b892ff",
+          "rgb": "184, 146, 255",
+          "hsl": "261, 100%, 79%"
+        },
+        "pink": {
+          "hex": "#f48fb1",
+          "rgb": "244, 143, 177",
+          "hsl": "340, 82%, 76%"
+        }
+      }
+    },
+    "dusk": {
+      "name": "Dusk",
+      "type": "dark",
+      "meta": {
+        "contrast": "medium",
+        "description": "Soft, pastel dark theme designed for reduced fatigue during long coding sessions"
+      },
+      "colors": {
+        "crust": {
+          "hex": "#1b1d24",
+          "rgb": "27, 29, 36",
+          "hsl": "227, 14%, 12%"
+        },
+        "mantle": {
+          "hex": "#21232d",
+          "rgb": "33, 35, 45",
+          "hsl": "230, 15%, 15%"
+        },
+        "base": {
+          "hex": "#282a36",
+          "rgb": "40, 42, 54",
+          "hsl": "231, 15%, 18%"
+        },
+        "surface0": {
+          "hex": "#323544",
+          "rgb": "50, 53, 68",
+          "hsl": "230, 15%, 23%"
+        },
+        "surface1": {
+          "hex": "#3d4052",
+          "rgb": "61, 64, 82",
+          "hsl": "231, 15%, 28%"
+        },
+        "surface2": {
+          "hex": "#494d63",
+          "rgb": "73, 77, 99",
+          "hsl": "231, 15%, 34%"
+        },
+        "overlay0": {
+          "hex": "#5d627b",
+          "rgb": "93, 98, 123",
+          "hsl": "230, 14%, 42%"
+        },
+        "overlay1": {
+          "hex": "#737896",
+          "rgb": "115, 120, 150",
+          "hsl": "231, 15%, 52%"
+        },
+        "subtext0": {
+          "hex": "#9a9ebb",
+          "rgb": "154, 158, 187",
+          "hsl": "233, 20%, 67%"
+        },
+        "subtext1": {
+          "hex": "#bebed6",
+          "rgb": "190, 190, 214",
+          "hsl": "240, 24%, 79%"
+        },
+        "text": {
+          "hex": "#e2e2f0",
+          "rgb": "226, 226, 240",
+          "hsl": "240, 33%, 91%"
+        },
+        "red": {
+          "hex": "#ea76cb",
+          "rgb": "234, 118, 203",
+          "hsl": "316, 73%, 69%"
+        },
+        "orange": {
+          "hex": "#fb9f7f",
+          "rgb": "251, 159, 127",
+          "hsl": "15, 94%, 74%"
+        },
+        "yellow": {
+          "hex": "#ebd07d",
+          "rgb": "235, 208, 125",
+          "hsl": "45, 73%, 71%"
+        },
+        "green": {
+          "hex": "#8bd5ca",
+          "rgb": "139, 213, 202",
+          "hsl": "171, 47%, 69%"
+        },
+        "cyan": {
+          "hex": "#91d7e3",
+          "rgb": "145, 215, 227",
+          "hsl": "189, 59%, 73%"
+        },
+        "blue": {
+          "hex": "#8aadf4",
+          "rgb": "138, 173, 244",
+          "hsl": "220, 83%, 75%"
+        },
+        "purple": {
+          "hex": "#c6a0f6",
+          "rgb": "198, 160, 246",
+          "hsl": "267, 83%, 80%"
+        },
+        "pink": {
+          "hex": "#f5bde6",
+          "rgb": "245, 189, 230",
+          "hsl": "316, 74%, 85%"
+        }
+      }
+    },
+    "dawn": {
+      "name": "Dawn",
+      "type": "light",
+      "meta": {
+        "contrast": "medium",
+        "description": "Soft light mode using off-white backgrounds to reduce glare"
+      },
+      "colors": {
+        "crust": {
+          "hex": "#dcdeed",
+          "rgb": "220, 222, 237",
+          "hsl": "233, 31%, 90%"
+        },
+        "mantle": {
+          "hex": "#e6e8f5",
+          "rgb": "230, 232, 245",
+          "hsl": "232, 43%, 93%"
+        },
+        "base": {
+          "hex": "#f0f2fa",
+          "rgb": "240, 242, 250",
+          "hsl": "228, 50%, 96%"
+        },
+        "surface0": {
+          "hex": "#e0e3f0",
+          "rgb": "224, 227, 240",
+          "hsl": "229, 33%, 91%"
+        },
+        "surface1": {
+          "hex": "#d1d5e6",
+          "rgb": "209, 213, 230",
+          "hsl": "229, 27%, 86%"
+        },
+        "surface2": {
+          "hex": "#c0c5db",
+          "rgb": "192, 197, 219",
+          "hsl": "229, 27%, 81%"
+        },
+        "overlay0": {
+          "hex": "#9ba0b8",
+          "rgb": "155, 160, 184",
+          "hsl": "230, 18%, 66%"
+        },
+        "overlay1": {
+          "hex": "#7f849c",
+          "rgb": "127, 132, 156",
+          "hsl": "230, 13%, 55%"
+        },
+        "subtext0": {
+          "hex": "#64687d",
+          "rgb": "100, 104, 125",
+          "hsl": "230, 11%, 44%"
+        },
+        "subtext1": {
+          "hex": "#4d5061",
+          "rgb": "77, 80, 97",
+          "hsl": "231, 11%, 34%"
+        },
+        "text": {
+          "hex": "#2a2c38",
+          "rgb": "42, 44, 56",
+          "hsl": "231, 14%, 19%"
+        },
+        "red": {
+          "hex": "#d20f39",
+          "rgb": "210, 15, 57",
+          "hsl": "347, 87%, 44%"
+        },
+        "orange": {
+          "hex": "#fe640b",
+          "rgb": "254, 100, 11",
+          "hsl": "22, 99%, 52%"
+        },
+        "yellow": {
+          "hex": "#df8e1d",
+          "rgb": "223, 142, 29",
+          "hsl": "35, 77%, 49%"
+        },
+        "green": {
+          "hex": "#208b5e",
+          "rgb": "32, 139, 94",
+          "hsl": "155, 63%, 34%"
+        },
+        "cyan": {
+          "hex": "#04a5e5",
+          "rgb": "4, 165, 229",
+          "hsl": "197, 97%, 46%"
+        },
+        "blue": {
+          "hex": "#1e66f5",
+          "rgb": "30, 102, 245",
+          "hsl": "220, 91%, 54%"
+        },
+        "purple": {
+          "hex": "#8839ef",
+          "rgb": "136, 57, 239",
+          "hsl": "266, 85%, 58%"
+        },
+        "pink": {
+          "hex": "#ea76cb",
+          "rgb": "234, 118, 203",
+          "hsl": "316, 73%, 69%"
+        }
+      }
+    },
+    "day": {
+      "name": "Day",
+      "type": "light",
+      "meta": {
+        "contrast": "high",
+        "description": "Crisp, high-contrast light theme built for bright environments"
+      },
+      "colors": {
+        "crust": {
+          "hex": "#d3d7e3",
+          "rgb": "211, 215, 227",
+          "hsl": "225, 22%, 86%"
+        },
+        "mantle": {
+          "hex": "#e5e8f0",
+          "rgb": "229, 232, 240",
+          "hsl": "224, 27%, 92%"
+        },
+        "base": {
+          "hex": "#ffffff",
+          "rgb": "255, 255, 255",
+          "hsl": "0, 0%, 100%"
+        },
+        "surface0": {
+          "hex": "#f0f2f7",
+          "rgb": "240, 242, 247",
+          "hsl": "223, 30%, 95%"
+        },
+        "surface1": {
+          "hex": "#e1e5f0",
+          "rgb": "225, 229, 240",
+          "hsl": "224, 30%, 91%"
+        },
+        "surface2": {
+          "hex": "#cbd1e1",
+          "rgb": "203, 209, 225",
+          "hsl": "224, 26%, 84%"
+        },
+        "overlay0": {
+          "hex": "#949cb3",
+          "rgb": "148, 156, 179",
+          "hsl": "225, 18%, 64%"
+        },
+        "overlay1": {
+          "hex": "#717993",
+          "rgb": "113, 121, 147",
+          "hsl": "226, 13%, 51%"
+        },
+        "subtext0": {
+          "hex": "#50576e",
+          "rgb": "80, 87, 110",
+          "hsl": "226, 16%, 37%"
+        },
+        "subtext1": {
+          "hex": "#353a4a",
+          "rgb": "53, 58, 74",
+          "hsl": "226, 17%, 25%"
+        },
+        "text": {
+          "hex": "#111318",
+          "rgb": "17, 19, 24",
+          "hsl": "223, 17%, 8%"
+        },
+        "red": {
+          "hex": "#c91932",
+          "rgb": "201, 25, 50",
+          "hsl": "351, 78%, 44%"
+        },
+        "orange": {
+          "hex": "#d95000",
+          "rgb": "217, 80, 0",
+          "hsl": "22, 100%, 43%"
+        },
+        "yellow": {
+          "hex": "#b87500",
+          "rgb": "184, 117, 0",
+          "hsl": "38, 100%, 36%"
+        },
+        "green": {
+          "hex": "#107c41",
+          "rgb": "16, 124, 65",
+          "hsl": "147, 77%, 27%"
+        },
+        "cyan": {
+          "hex": "#0083b3",
+          "rgb": "0, 131, 179",
+          "hsl": "196, 100%, 35%"
+        },
+        "blue": {
+          "hex": "#0052cc",
+          "rgb": "0, 82, 204",
+          "hsl": "216, 100%, 40%"
+        },
+        "purple": {
+          "hex": "#6e21d2",
+          "rgb": "110, 33, 210",
+          "hsl": "266, 73%, 48%"
+        },
+        "pink": {
+          "hex": "#ca238a",
+          "rgb": "202, 35, 138",
+          "hsl": "323, 70%, 46%"
+        }
+      }
+    }
+  }
+}

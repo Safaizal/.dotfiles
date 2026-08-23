@@ -1,0 +1,19 @@
+2026-08-01 13:40:02.231 [info] Getting Manifest... dlasagno.rasi
+2026-08-01 13:40:03.778 [info] Installing extension: dlasagno.rasi {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json","path":"/home/faizal/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.130.0","date":"2026-07-22T14:55:04Z"}}
+2026-08-01 13:40:07.452 [info] Extension signature verification result for dlasagno.rasi: Success. Executed: true. Duration: 1118ms.
+2026-08-01 13:40:07.529 [info] Extracted extension to file:///home/faizal/.vscode-oss/extensions/dlasagno.rasi-1.1.0-universal: dlasagno.rasi
+2026-08-01 13:40:07.539 [info] Renamed to /home/faizal/.vscode-oss/extensions/dlasagno.rasi-1.1.0-universal
+2026-08-01 13:40:07.593 [info] Extension installed successfully: dlasagno.rasi vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json
+2026-08-01 13:40:48.974 [info] Getting Manifest... pkief.material-product-icons
+2026-08-01 13:40:49.585 [info] Installing extension: pkief.material-product-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json","path":"/home/faizal/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.130.0","date":"2026-07-22T14:55:04Z"}}
+2026-08-01 13:40:51.639 [info] Extension signature verification result for pkief.material-product-icons: Success. Executed: true. Duration: 456ms.
+2026-08-01 13:40:51.707 [info] Extracted extension to file:///home/faizal/.vscode-oss/extensions/pkief.material-product-icons-1.7.1-universal: pkief.material-product-icons
+2026-08-01 13:40:51.726 [info] Renamed to /home/faizal/.vscode-oss/extensions/pkief.material-product-icons-1.7.1-universal
+2026-08-01 13:40:51.776 [info] Extension installed successfully: pkief.material-product-icons vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json
+2026-08-01 13:44:50.569 [info] Uninstalling extension from the profile: dlasagno.rasi@1.1.0 vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json
+2026-08-01 13:44:50.689 [info] Marked extension as removed dlasagno.rasi-1.1.0-universal
+2026-08-01 13:44:51.397 [info] Successfully uninstalled extension from the profile dlasagno.rasi@1.1.0 vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json
+2026-08-01 13:44:54.574 [info] Getting Manifest... dlasagno.rasi
+2026-08-01 13:44:55.213 [info] Installing extension: dlasagno.rasi {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"productVersion":{"version":"1.130.0","date":"2026-07-22T14:55:04Z"},"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json","path":"/home/faizal/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-08-01 13:44:55.299 [info] Removed the extension from removed list: dlasagno.rasi
+2026-08-01 13:44:55.325 [info] Extension installed successfully: dlasagno.rasi vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json

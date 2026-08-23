@@ -1,0 +1,94 @@
+2026-08-01 13:52:35.288 [info] Active editor: file:///home/faizal/.config/rofi/themes/powermenu.rasi
+2026-08-01 13:52:52.764 [info] Executing :w
+2026-08-01 13:53:17.016 [info] Executing :w
+2026-08-01 13:53:26.374 [info] Executing :w
+2026-08-01 13:53:43.566 [info] Executing :w
+2026-08-01 13:53:56.183 [info] Executing :w
+2026-08-01 13:54:17.961 [info] Executing :w
+2026-08-01 13:54:25.045 [info] Executing :w
+2026-08-01 14:02:30.640 [info] Active editor: file:///home/faizal/.config/rofi/scripts/powermenu.sh
+2026-08-01 14:02:39.726 [info] Active editor: file:///home/faizal/.config/rofi/scripts/wall_switch.sh
+2026-08-01 14:02:52.049 [info] /home/faizal/.config/rofi/scripts/wall_switch.sh closed
+2026-08-01 14:02:52.148 [info] Active editor: file:///home/faizal/.config/rofi/themes/custom.rasi
+2026-08-01 14:02:53.425 [info] Active editor: file:///home/faizal/.config/rofi/themes/powermenu.rasi
+2026-08-01 14:02:55.406 [info] Active editor: file:///home/faizal/.config/rofi/scripts/powermenu.sh
+2026-08-01 16:08:33.134 [info] Active editor: file:///home/faizal/.config/rofi/themes/powermenu.rasi
+2026-08-01 16:08:50.798 [info] Executing :w
+2026-08-01 16:09:37.222 [info] Executing :w
+2026-08-01 16:09:52.084 [info] Executing :w
+2026-08-01 16:10:03.493 [info] Executing :w
+2026-08-01 16:10:29.589 [info] Executing :w
+2026-08-01 16:11:14.778 [info] Executing :w
+2026-08-01 16:11:22.180 [info] Executing :w
+2026-08-01 16:11:30.164 [info] Executing :w
+2026-08-01 16:11:36.815 [info] Executing :w
+2026-08-01 16:11:42.632 [info] Executing :w
+2026-08-01 16:11:49.327 [info] Executing :w
+2026-08-01 16:12:08.444 [info] Executing :w
+2026-08-01 16:12:28.219 [info] Executing :w
+2026-08-01 16:12:39.875 [info] Executing :w
+2026-08-01 16:13:03.008 [info] Executing :w
+2026-08-01 16:13:28.322 [info] Executing :w
+2026-08-01 16:13:35.458 [info] Executing :w
+2026-08-01 16:13:49.399 [info] Executing :w
+2026-08-01 16:13:57.894 [info] Executing :w
+2026-08-01 16:14:06.794 [info] Executing :w
+2026-08-01 16:14:13.654 [info] Executing :w
+2026-08-01 16:14:24.347 [info] Executing :w
+2026-08-01 16:14:32.466 [info] Active editor: file:///home/faizal/.config/rofi/scripts/powermenu.sh
+2026-08-01 16:14:56.257 [info] Executing :w
+2026-08-01 16:15:47.484 [info] Active editor: file:///home/faizal/.config/rofi/themes/custom.rasi
+2026-08-01 16:15:49.097 [info] Active editor: file:///home/faizal/.config/rofi/themes/powermenu.rasi
+2026-08-01 16:16:39.762 [info] Executing :w
+2026-08-01 16:17:41.938 [info] Executing :w
+2026-08-01 16:17:47.885 [warning] invalid cursor position. [[35, 15] | [35, 15]].
+2026-08-01 16:17:47.885 [warning] invalid cursor position. [[35, 15] | [35, 15]].
+2026-08-01 16:17:50.233 [info] Executing :w
+2026-08-01 16:18:00.357 [info] Executing :w
+2026-08-01 16:18:09.708 [info] Executing :w
+2026-08-01 16:18:15.466 [info] Executing :w
+2026-08-01 16:18:46.785 [info] Executing :w
+2026-08-01 16:19:38.905 [info] Executing :w
+2026-08-01 16:19:49.225 [info] Executing :w
+2026-08-01 16:19:59.470 [info] Executing :w
+2026-08-01 16:20:04.859 [info] Executing :w
+2026-08-01 16:20:40.740 [info] Executing :w
+2026-08-01 16:21:28.939 [info] Executing :w
+2026-08-01 16:21:50.173 [info] Executing :w
+2026-08-01 16:22:03.499 [info] Executing :w
+2026-08-01 16:23:33.307 [info] Executing :w
+2026-08-01 16:24:09.053 [info] Executing :w
+2026-08-01 16:24:29.774 [warning] invalid cursor position. [[60, 0] | [60, 0]].
+2026-08-01 16:24:29.774 [warning] invalid cursor position. [[60, 0] | [60, 0]].
+2026-08-01 16:24:34.877 [info] Executing :w
+2026-08-01 16:24:47.608 [info] Executing :w
+2026-08-01 16:25:18.738 [info] Executing :w
+2026-08-01 16:25:50.793 [info] Executing :w
+2026-08-01 16:25:55.375 [info] Executing :w
+2026-08-01 16:26:01.071 [info] Executing :w
+2026-08-01 16:26:09.593 [info] Executing :e
+2026-08-01 16:26:09.764 [info] Active editor: untitled:Untitled-1
+2026-08-01 16:26:09.802 [warning] getLineLength() called with out-of-bounds line 36
+2026-08-01 16:26:09.802 [warning] invalid cursor position. [[36, 40] | [36, 40]].
+2026-08-01 16:26:14.633 [info] Untitled-1 closed
+2026-08-01 16:26:14.656 [info] Active editor: file:///home/faizal/.config/rofi/themes/powermenu.rasi
+2026-08-01 16:26:17.233 [info] Executing :w
+2026-08-01 16:26:49.137 [info] Executing :w
+2026-08-01 16:27:03.781 [info] Executing :w
+2026-08-01 16:27:12.614 [info] Executing :w
+2026-08-01 16:27:35.322 [info] Active editor: file:///home/faizal/.config/rofi/scripts/powermenu.sh
+2026-08-01 16:28:32.102 [warning] [InternalSelectionsTracker] Treating untracked selection change event [3, 26; 3, 26] as an intermediate selection to ignore; assuming it slipped past the end of an action we just ran, since there are still 1 tracked internal selections updates to ignore
+2026-08-01 16:28:33.762 [info] Executing :w
+2026-08-01 16:28:55.429 [info] Active editor: file:///home/faizal/.config/rofi/themes/custom.rasi
+2026-08-01 16:28:56.476 [info] Active editor: file:///home/faizal/.config/rofi/themes/powermenu.rasi
+2026-08-01 16:28:57.506 [info] /home/faizal/.config/rofi/themes/custom.rasi closed
+2026-08-01 16:29:30.653 [info] Executing :w
+2026-08-01 16:30:00.660 [info] Executing :w
+2026-08-01 16:31:20.284 [info] Executing :w
+2026-08-01 16:32:24.503 [info] Executing :w
+2026-08-01 16:32:55.332 [info] Executing :w
+2026-08-01 16:33:32.346 [info] Executing :w
+2026-08-01 16:33:58.057 [info] Executing :w
+2026-08-01 16:34:08.571 [info] Active editor: file:///home/faizal/.config/rofi/scripts/powermenu.sh
+2026-08-01 16:34:08.622 [warning] [InternalSelectionsTracker] Un-tracking stale internal selections update [3, 27; 3, 27] after 336522ms without a matching selection change event (expiry_ms: 1000ms)
+2026-08-01 16:34:08.622 [warning] [InternalSelectionsTracker] Un-tracking stale internal selections update [3, 27; 3, 27] after 336077ms without a matching selection change event (expiry_ms: 1000ms)

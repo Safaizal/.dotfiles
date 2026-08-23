@@ -1,0 +1,6 @@
+2026-08-01 13:52:28.712 [info] Getting Manifest... vscodevim.vim
+2026-08-01 13:52:29.677 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json","path":"/home/faizal/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.130.0","date":"2026-07-22T14:55:04Z"}}
+2026-08-01 13:52:33.444 [info] Extension signature verification result for vscodevim.vim: Success. Executed: true. Duration: 798ms.
+2026-08-01 13:52:33.746 [info] Extracted extension to file:///home/faizal/.vscode-oss/extensions/vscodevim.vim-1.32.4-universal: vscodevim.vim
+2026-08-01 13:52:33.774 [info] Renamed to /home/faizal/.vscode-oss/extensions/vscodevim.vim-1.32.4-universal
+2026-08-01 13:52:33.847 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/faizal/.vscode-oss/extensions/extensions.json

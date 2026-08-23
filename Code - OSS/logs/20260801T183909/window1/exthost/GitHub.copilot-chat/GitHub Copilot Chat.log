@@ -1,0 +1,121 @@
+2026-08-01 18:39:21.863 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-08-01 18:39:21.863 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-08-01 18:39:21.863 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-01 18:39:21.863 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-08-01 18:39:21.863 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-08-01 18:39:21.863 [info] BYOK: fetching known models list
+2026-08-01 18:39:21.863 [info] Using the Electron fetcher.
+2026-08-01 18:39:21.863 [info] activationBlocker from 'languageModelAccess' took for 110ms
+2026-08-01 18:39:21.863 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:21.863 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:21.863 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:21.863 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:21.863 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:21.863 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-08-01 18:39:21.863 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-08-01 18:39:21.863 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-08-01 18:39:21.863 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-08-01 18:39:21.863 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-08-01 18:39:21.863 [info] [CopilotCLI] MCP server started. Lock file: /home/faizal/.copilot/ide/43400403-34a5-4001-99c7-1cb99dd6a76c.lock
+2026-08-01 18:39:21.863 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-vYRIel/mcp.sock#%2Fmcp
+2026-08-01 18:39:21.863 [info] Logged in as Safaizal
+2026-08-01 18:39:22.424 [info] Got Copilot token for Safaizal
+2026-08-01 18:39:22.424 [info] Copilot Chat: 0.58.0, VS Code: 1.130.0
+2026-08-01 18:39:22.644 [info] copilot token sku: free_limited_copilot
+2026-08-01 18:39:22.644 [info] ConversationFeature: Activating contributions
+2026-08-01 18:39:22.644 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-08-01 18:39:22.670 [info] Registering default platform agent...
+2026-08-01 18:39:22.673 [info] copilot token sku: free_limited_copilot
+2026-08-01 18:39:22.673 [info] [code-referencing] Public code references are enabled.
+2026-08-01 18:39:22.673 [info] copilot token sku: free_limited_copilot
+2026-08-01 18:39:22.673 [info] [code-referencing] Public code references are enabled.
+2026-08-01 18:39:22.673 [info] copilot token sku: free_limited_copilot
+2026-08-01 18:39:22.673 [info] [code-referencing] Public code references are enabled.
+2026-08-01 18:39:22.676 [info] activationBlocker from 'conversationFeature' took for 1520ms
+2026-08-01 18:39:22.678 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-08-01 18:39:22.680 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-08-01 18:39:22.680 [info] copilot token sku: free_limited_copilot
+2026-08-01 18:39:22.762 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-08-01 18:39:22.765 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-08-01 18:39:22.768 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:22.768 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:22.769 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:22.812 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:22.830 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:39:23.421 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-08-01 18:39:23.972 [info] Fetched model metadata in 2783ms f12f15c0-06fc-44e9-9273-7a02fec605bf
+2026-08-01 18:39:24.432 [info] Latest entry: ccreq:latest.copilotmd
+2026-08-01 18:39:24.434 [info] ccreq:78187c46.copilotmd | markdown
+2026-08-01 18:39:24.494 [info] ConversationFeature: BYOK models available
+2026-08-01 18:39:24.494 [info] copilot token sku: free_limited_copilot
+2026-08-01 18:41:56.716 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:42:56.935 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:45:13.959 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:45:25.260 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:45:26.097 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:47:25.193 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:47:35.229 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:48:07.191 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:48:40.991 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:49:21.908 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-08-01 18:49:31.328 [info] ccreq:5e3b27e0.copilotmd | markdown
+2026-08-01 18:49:31.805 [warning] [relatedFiles] unknown language jsonc
+2026-08-01 18:49:31.870 [info] ccreq:c35219cc.copilotmd | markdown
+2026-08-01 18:49:33.047 [info] [fetchCompletions] Request eab9bbfa-4530-4935-a2cf-9e224ff49a1d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1189.5563159999438ms
+2026-08-01 18:49:33.084 [info] ccreq:f93d9b58.copilotmd | markdown
+2026-08-01 18:49:34.977 [info] message 0 returned. finish reason: [stop]
+2026-08-01 18:49:34.979 [info] request done: requestId: [611ec768-fcc0-4f19-8cb7-979cc731496a] model deployment ID: []
+2026-08-01 18:49:35.324 [info] ccreq:ee643538.copilotmd | success | nes-callisto-003 | 1358ms | [XtabProvider]
+2026-08-01 18:49:36.042 [info] message 0 returned. finish reason: [stop]
+2026-08-01 18:49:36.043 [info] request done: requestId: [a0a5ae5f-f69d-4b4d-81c6-1f18469f8cda] model deployment ID: []
+2026-08-01 18:49:36.258 [info] ccreq:9ac70bcc.copilotmd | success | copilot-suggestions-himalia-001 | 929ms | [nes.nextCursorPosition]
+2026-08-01 18:49:41.353 [info] ccreq:a1cb8ea8.copilotmd | markdown
+2026-08-01 18:49:41.406 [info] ccreq:75bf54aa.copilotmd | markdown
+2026-08-01 18:49:41.792 [info] [fetchCompletions] Request 9f1e925a-41f7-4bcb-99b7-9a7b46b09ccf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 414.80393300007563ms
+2026-08-01 18:49:41.820 [info] ccreq:7dd5d767.copilotmd | markdown
+2026-08-01 18:49:44.213 [info] message 0 returned. finish reason: [stop]
+2026-08-01 18:49:44.214 [info] request done: requestId: [9a2cf467-ec01-4646-b755-97abe9c7c110] model deployment ID: []
+2026-08-01 18:49:44.225 [info] ccreq:82a816c5.copilotmd | success | nes-callisto-003 | 732ms | [XtabProvider]
+2026-08-01 18:49:44.839 [info] message 0 returned. finish reason: [stop]
+2026-08-01 18:49:44.841 [info] request done: requestId: [93ac353f-64ca-4623-802b-b0a98e066bad] model deployment ID: []
+2026-08-01 18:49:44.847 [info] ccreq:2c035a83.copilotmd | success | copilot-suggestions-himalia-001 | 610ms | [nes.nextCursorPosition]

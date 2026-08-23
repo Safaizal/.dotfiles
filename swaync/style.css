@@ -1,0 +1,164 @@
+@import "themes/colors.css";
+
+* {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+  font-size: 11px;
+  color: @on_surface;
+}
+
+/* Control centre */
+.control-center {
+  background: rgba(17, 19, 24, 0.96);
+  border: 1px solid alpha(@primary, 0.42);
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.48);
+  padding: 14px;
+}
+
+.control-center-list { background: transparent; }
+
+.widget-title { margin: 2px 2px 12px; }
+
+.widget-title > label {
+  color: @primary;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.widget-title > button {
+  background: alpha(@primary_container, 0.7);
+  border: 1px solid alpha(@primary, 0.35);
+  border-radius: 9px;
+  color: @on_primary_container;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 6px 10px;
+  transition: 160ms ease;
+}
+
+.widget-title > button:hover { background: @primary; color: @on_primary; }
+
+/* Notifications */
+.notification-row { outline: none; margin: 0 0 9px; }
+.notification-row:focus, .notification-row:hover { background: transparent; }
+
+.notification {
+  background: @surface_container;
+  border: 1px solid alpha(@outline, 0.38);
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.notification:hover { background: @surface_container_high; border-color: alpha(@primary, 0.7); }
+.notification-content { background: transparent; padding: 2px; }
+
+.notification-content .summary { color: @on_surface; font-size: 14px; font-weight: 700; }
+.notification-content .body { color: @on_surface_variant; margin-top: 4px; }
+
+.notification-default-action, .notification-action {
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+}
+
+.notification-action:hover { background: alpha(@primary, 0.14); }
+.notification-group { background: transparent; margin: 0 0 9px; }
+.notification-group-headers, .notification-group-icon { color: @primary; }
+
+.close-button {
+  background: alpha(@error_container, 0.7);
+  border: 1px solid alpha(@error, 0.3);
+  border-radius: 99px;
+  color: @on_error_container;
+  margin: 2px;
+  min-height: 22px;
+  min-width: 22px;
+  padding: 0;
+}
+
+.close-button:hover { background: @error; color: @on_error; }
+
+.floating-notifications .notification {
+  background: rgba(26, 27, 32, 0.97);
+  border: 1px solid alpha(@primary, 0.42);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.42);
+}
+
+/* Do not disturb */
+.widget-dnd {
+  background: @surface_container;
+  border: 1px solid alpha(@outline, 0.3);
+  border-radius: 12px;
+  margin: 5px 2px 12px;
+  padding: 8px 10px;
+}
+
+.widget-dnd > switch {
+  background: @surface_variant;
+  border-radius: 99px;
+  min-height: 22px;
+  min-width: 42px;
+}
+
+.widget-dnd > switch:checked { background: @primary; }
+
+.widget-dnd > switch slider {
+  background: @on_surface_variant;
+  border-radius: 99px;
+  min-height: 16px;
+  min-width: 16px;
+}
+
+.widget-dnd > switch:checked slider { background: @on_primary; }
+
+/* Media */
+.widget-mpris {
+  background: @surface_container;
+  border: 1px solid alpha(@outline, 0.3);
+  border-radius: 14px;
+  margin: 2px 2px 12px;
+  padding: 8px;
+}
+
+.widget-mpris-title { color: @primary; font-size: 14px; font-weight: 700; }
+.widget-mpris-subtitle { color: @on_surface_variant; }
+
+.widget-mpris button {
+  background: alpha(@primary_container, 0.65);
+  border: 1px solid alpha(@primary, 0.3);
+  border-radius: 9px;
+  color: @primary;
+  margin: 3px;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.widget-mpris button:hover { background: @primary; color: @on_primary; }
+
+/* Power-profile buttons */
+.widget-buttons-grid { background: transparent; margin: 0 2px 10px; }
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  background: @surface_container;
+  border: 1px solid alpha(@outline, 0.35);
+  border-radius: 11px;
+  color: @on_surface;
+  margin: 3px;
+  min-height: 44px;
+  padding: 8px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  background: @primary_container;
+  border-color: @primary;
+  color: @on_primary_container;
+}
+
+scrollbar { background: transparent; border: none; }
+
+scrollbar slider {
+  background: alpha(@outline, 0.55);
+  border-radius: 99px;
+  min-width: 5px;
+}

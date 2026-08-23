@@ -1,0 +1,14 @@
+* {
+    bg-col: rgba(0, 0, 0, 0.5);
+    border-col: #ffffff;
+    selected-col: #f5e0dc;
+    fg-col: #cdd6f4;
+    fg-col-inner: #11111b;
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
