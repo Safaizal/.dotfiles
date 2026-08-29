@@ -1,12 +1,30 @@
-@define-color black     #000000;
-@define-color black1    #333333;
-@define-color black2    #555555;
-@define-color black3    #777777;
-@define-color black4    #999999;
-@define-color white     #ffffff;
-@define-color white1    #aaaaaa;
-@define-color red       #ff0000;
-@define-color green     #00aa00;
-@define-color blue      #0d0dbf;
-@define-color yellow    #999900;
-@define-color amanojaku #00ff11;
+:root {
+  color-scheme: dark;
+  --amanojaku-black: #000000;
+  --amanojaku-gray-1: #333333;
+  --amanojaku-gray-2: #555555;
+  --amanojaku-gray-3: #777777;
+  --amanojaku-gray-4: #999999;
+  --amanojaku-white: #ffffff;
+  --amanojaku-green: #00ff11;
+  --amanojaku-error: #ff0000;
+  --amanojaku-white-1: #aaaaaa;
+  --amanojaku-lualine-red: #aa1100;
+  --amanojaku-lualine-green: #11aa00;
+  --amanojaku-lualine-blue: #1100aa;
+  --amanojaku-lualine-yellow: #ffcc00;
+
+  --amanojaku-background: var(--amanojaku-black);
+  --amanojaku-surface: var(--amanojaku-gray-1);
+  --amanojaku-surface-alt: var(--amanojaku-gray-2);
+  --amanojaku-border: var(--amanojaku-gray-2);
+  --amanojaku-foreground: var(--amanojaku-white);
+  --amanojaku-muted: var(--amanojaku-gray-3);
+  --amanojaku-subtle: var(--amanojaku-gray-4);
+  --amanojaku-accent: var(--amanojaku-green);
+  --amanojaku-success: var(--amanojaku-lualine-green);
+  --amanojaku-warning: var(--amanojaku-lualine-yellow);
+  --amanojaku-info: var(--amanojaku-lualine-blue);
+  --amanojaku-error-status: var(--amanojaku-lualine-red);
+  --amanojaku-critical: var(--amanojaku-error);
+}

@@ -1,0 +1,74 @@
+{
+  "name": "amanojaku",
+  "version": "1.0.0",
+  "description": "A high-contrast monochrome dark colorscheme based on starship.toml.",
+  "source": "../starship.toml",
+  "flavors": {
+    "night": {
+      "name": "Amanojaku Night",
+      "type": "dark",
+      "palette": {
+        "black": "#000000",
+        "gray_1": "#333333",
+        "gray_2": "#555555",
+        "gray_3": "#777777",
+        "gray_4": "#999999",
+        "white": "#ffffff",
+        "green": "#00ff11",
+        "red": "#ff0000",
+        "white_1": "#aaaaaa",
+        "lualine_red": "#aa1100",
+        "lualine_green": "#11aa00",
+        "lualine_blue": "#1100aa",
+        "lualine_yellow": "#ffcc00"
+      },
+      "ui": {
+        "background": "#000000",
+        "surface": "#333333",
+        "surface_alt": "#555555",
+        "border": "#555555",
+        "selection": "#999999",
+        "foreground": "#ffffff",
+        "muted": "#777777",
+        "subtle": "#999999",
+        "accent": "#00ff11",
+        "success": "#11aa00",
+        "warning": "#ffcc00",
+        "info": "#1100aa",
+        "error": "#aa1100",
+        "critical": "#ff0000"
+      },
+      "terminal": {
+        "black": "#000000",
+        "red": "#aa1100",
+        "green": "#11aa00",
+        "yellow": "#ffcc00",
+        "blue": "#1100aa",
+        "magenta": "#777777",
+        "cyan": "#999999",
+        "white": "#ffffff",
+        "bright_black": "#333333",
+        "bright_red": "#ff0000",
+        "bright_green": "#00ff11",
+        "bright_yellow": "#ffcc00",
+        "bright_blue": "#1100aa",
+        "bright_magenta": "#999999",
+        "bright_cyan": "#ffffff",
+        "bright_white": "#ffffff"
+      },
+      "syntax": {
+        "comment": "#777777",
+        "text": "#ffffff",
+        "keyword": "#ffffff",
+        "function": "#00ff11",
+        "string": "#ffffff",
+        "constant": "#999999",
+        "type": "#ffffff",
+        "operator": "#999999",
+        "error": "#aa1100",
+        "warning": "#ffcc00",
+        "info": "#1100aa"
+      }
+    }
+  }
+}
