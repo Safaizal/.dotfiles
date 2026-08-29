@@ -1,0 +1,14 @@
+# cmus - runtime state only
+cmus/autosave
+cmus/cache
+cmus/command-history
+cmus/lib.pl
+cmus/search-history
+cmus/playlists/
+
+# mpd - runtime state (keep only mpd.conf)
+mpd/database
+mpd/log
+mpd/state
+mpd/sticker.sql
+mpd/playlists/
