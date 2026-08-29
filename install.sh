@@ -20,7 +20,7 @@ PACMAN_PKGS=(
     git
     stow # Used for symlinking dotfiles cleanly
     base-devel
-    
+
     # Hyprland & Wayland Ecosystem
     hyprland
     waybar
@@ -34,8 +34,8 @@ PACMAN_PKGS=(
     power-profiles-daemon
 
     # For fastfetch image processing
-    imagemagick     
-    chafa   
+    imagemagick
+    chafa
 
     # Terminal, Shell & Editors
     kitty
@@ -46,7 +46,7 @@ PACMAN_PKGS=(
     htop
     yazi
     neovim
-    
+
     # Media & Theming
     cava
     mpd
@@ -64,10 +64,10 @@ PACMAN_PKGS=(
 
 # AUR Packages
 AUR_PKGS=(
-    matugen-bin
+    matugen
     rmpc
     ncspot
-    zscroll-git
+    zscroll
 )
 
 # ==========================================
@@ -104,40 +104,68 @@ echo "==> Enabling background services..."
 sudo systemctl enable --now power-profiles-daemon.service || true
 
 # ==========================================
-# 4. Clone Repository & Symlink
+# 4. Clone Repository & Configure
 # ==========================================
 
 if [ -d "$TARGET_DIR" ]; then
     echo "==> Dotfiles directory already exists at $TARGET_DIR. Pulling latest changes..."
     cd "$TARGET_DIR"
     git pull origin main
+    git submodule update --init --recursive
 else
     echo "==> Cloning dotfiles repository..."
-    git clone "$REPO_URL" "$TARGET_DIR"
+    git clone --recurse-submodules "$REPO_URL" "$TARGET_DIR"
     cd "$TARGET_DIR"
 fi
 
 # Ensure .config exists
 mkdir -p "$CONFIG_DIR"
 
-echo "==> Symlinking configurations..."
-# This assumes your repo has a folder named 'config' or you want to link the contents directly.
-# If the root of your git repo directly contains the folders (like hypr, waybar, kitty), use:
+# Helper: deploy a file/dir into ~/.config, backing up any conflicting copy
+deploy () {
+    local src="$1"
+    local dst="$CONFIG_DIR/$(basename "$src")"
+
+    if [ -e "$dst" ]; then
+        local backup="$dst.bak.$(date +%Y%m%d-%H%M%S)"
+        echo "    Backing up existing $dst to $backup"
+        mv "$dst" "$backup"
+    fi
+
+    cp -r "$src" "$dst"
+
+    # Don't leave a nested git repository behind (e.g. the nvim submodule)
+    rm -rf "$dst/.git"
+}
+
+# Only deploy directories that contain tracked files (skips e.g. empty cmus)
+has_tracked_files () {
+    [ -n "$(git ls-files "$1" | head -n1)" ]
+}
+
+echo "==> Copying configurations..."
+
 for d in */; do
     # Skip any .git directory
     if [[ "$d" == ".git/" ]]; then continue; fi
-    
+
     folder_name="${d%/}"
-    echo " -> Linking $folder_name to $CONFIG_DIR/$folder_name"
-    
-    # Remove existing conflicting directories/files before symlinking
-    if [ -e "$CONFIG_DIR/$folder_name" ]; then
-        echo "    Backing up existing $CONFIG_DIR/$folder_name to $CONFIG_DIR/$folder_name.bak"
-        mv "$CONFIG_DIR/$folder_name" "$CONFIG_DIR/$folder_name.bak"
+
+    # Skip directories that carry no tracked configuration
+    if ! has_tracked_files "$folder_name"; then
+        echo " -> Skipping $folder_name (no tracked files)"
+        continue
     fi
-    
-    ln -sf "$TARGET_DIR/$folder_name" "$CONFIG_DIR/$folder_name"
+
+    echo " -> Copying $folder_name to $CONFIG_DIR/$folder_name"
+    deploy "$TARGET_DIR/$folder_name"
 done
+
+# Deploy top-level dotfiles (the loop above only handles directories)
+if [ -f "$TARGET_DIR/starship.toml" ]; then
+    echo " -> Copying starship.toml to $CONFIG_DIR/starship.toml"
+    deploy "$TARGET_DIR/starship.toml"
+fi
 
 echo "============================================="
 echo " Installation Complete! Restart your session."
