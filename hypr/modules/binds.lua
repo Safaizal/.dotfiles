@@ -30,7 +30,7 @@ hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/faizal/.config/rofi/scripts/wa
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("kitty -e cmus"))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(command))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("swaync-client -t -sw"))
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("~/.dotfiles/hypr/hyprlock/scripts/generate-config.sh && hyprlock"))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("/home/faizal/.config/rofi/scripts/powermenu.sh"))
 hl.bind("Print", hl.dsp.exec_cmd("hyprshot -m region --output-folder ~/Pictures/Screenshots"))
 
