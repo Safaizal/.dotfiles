@@ -1,0 +1,153 @@
+@import "themes/colors.css";
+
+* {
+  min-height: 0;
+  min-width: 0;
+  font-family: "JetBrainsMono NFP";
+  font-size: 10px;
+  font-weight: 600;
+}
+
+window#waybar {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: transparent;
+}
+
+#workspaces button {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.15rem;
+  border-radius: 10px;
+  background-color: @surface_container;
+  color: @on_surface_variant;
+}
+
+#workspaces button:hover {
+  color: @on_primary;
+  background-color: @primary;
+}
+
+#workspaces button.active {
+  background-color: @primary;
+  color: @on_primary;
+}
+
+#workspaces button.urgent {
+  background-color: @error_container;
+  color: @on_error_container;
+}
+
+#clock,
+#wireplumber,
+#custom-logo,
+#custom-power,
+#custom-notification,
+#cpu,
+#tray,
+#memory,
+#power,
+#custom-cava,
+#custom-playing,
+#network,
+#window,
+#mpris {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.15rem;
+  border-radius: 10px;
+  background-color: @surface_container;
+  color: @on_surface;
+}
+
+#mpris.playing {
+  color: @tertiary;
+}
+
+#mpris.paused {
+  color: @outline;
+}
+
+#custom-sep {
+  padding: 0px;
+  color: @outline_variant;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+#cpu {
+  color: @tertiary;
+}
+
+#memory {
+  color: @primary;
+}
+
+#clock {
+  color: @secondary;
+}
+
+#clock.simpleclock {
+  color: @primary;
+}
+
+#window {
+  color: @on_surface;
+}
+
+#wireplumber {
+  color: @primary;
+}
+
+#wireplumber.muted {
+  color: @outline;
+}
+
+#custom-logo {
+  color: @primary;
+}
+
+#custom-power {
+  color: @error;
+}
+
+#battery.charging {
+    color: @primary;
+}
+
+#battery.warning:not(.charging) {
+    color: #ff0000;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+#battery.critical {
+  color: #ff0000;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#custom-cava {
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans Symbols";
+    letter-spacing: 2px;       /* Fixes overlapping characters */
+    transition: all 0.3s ease;
+    padding-right: 5px;
+    color: @primary;
+}
+
+tooltip {
+  background-color: @surface_container;
+  border: 2px solid @primary;
+  border-radius: 6px;
+}
+
+tooltip label {
+  color: @on_surface;
+}

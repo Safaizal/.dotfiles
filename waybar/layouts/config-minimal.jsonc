@@ -1,0 +1,94 @@
+{
+  "layer": "top",
+  "modules-left": [
+    "wireplumber",
+    "temperature",
+    "custom/cava",
+    "custom/playing",
+  ],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["network", "group/power", "clock"],
+  "group/power": {
+    "orientation": "horizontal",
+    "modules": ["power-profiles-daemon", "battery"],
+  },
+  "hyprland/window": {
+    "max-length": 50,
+  },
+  "custom/playing": {
+    "exec": "~/.config/waybar/scripts/playing.sh",
+    "escape": true,
+    "tooltip": false,
+  },
+  "temperature": {
+    "thermal-zone": 2,
+    "critical-threshold": 80,
+    "format": "{icon} {temperatureC}°C",
+    "format-icons": ["", "", " "],
+  },
+  "network": {
+    "interval": 1,
+    "format-wifi": "󰤨  {essid} | ",
+    "format-ethernet": "  | ",
+    "format-disconnected": "󰟦  | ",
+    "tooltip-format": "Network_Strength: ({signalStrength}%)",
+    "on-click": "~/.config/waybar/scripts/control.sh",
+  },
+  "wireplumber": {
+    "format": "{icon}  {volume}% | ",
+    "format-muted": " Muted | ",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-scroll-up": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+    "format-icons": ["", "", ""],
+  },
+  "custom/cava": {
+    "exec": "~/.config/waybar/scripts/cava.sh",
+    "format": "{}",
+    "tooltip": false,
+    "restart-interval": 1,
+    "on-click": "pavucontrol",
+  },
+
+  "power-profiles-daemon": {
+    "format": "{icon}  ",
+    "interval": 1,
+    "tooltip-format": "{profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "performance": "",
+      "balanced": "",
+      "power-saver": "",
+    },
+  },
+
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 20,
+      "good": 80,
+    },
+    "interval": 1,
+    "format": "{icon} {capacity}% ",
+    "format-icons": {
+      "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󱈑"],
+      "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+    },
+  },
+  "clock": {
+    "format": "| {:%a, %d %b  %H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "active": "",
+      "default": "",
+    },
+  },
+}

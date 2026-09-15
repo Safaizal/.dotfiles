@@ -1,0 +1,102 @@
+@import "themes/colors.css";
+
+/* change it to your name */
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+	all: unset;
+	font-family: "JetBrainsMono Nerd Font", monospace;
+	font-size: 12px;
+}
+
+window#waybar {
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
+    color: @on-background;
+}
+
+#workspaces {
+    background: rgba(30, 30, 46, 0.5);
+    margin: 5px 10px;
+    border-radius: 15px;
+    border: 2px solid @secondary;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    color: @surface-variant; /* Muted text color */
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    background: rgba(150, 150, 150, 0.5); /* Accent color for active */
+    color: #11111b;
+    border-radius: 15px;
+    min-width: 30px;
+}
+
+
+#workspaces button.empty {
+    color: @amanojaku_source; /* Very faded for empty */
+}
+
+#workspaces button:hover {
+    background: @amanojaku_source;
+    border-radius: 15px;
+}
+
+#battery.charging {
+    color: @amanojaku_source;
+}
+
+#battery.warning:not(.charging) {
+    color: #ff0000;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+#battery.critical {
+  color: #ff0000;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.modules-left{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    background-color: alpha(@background, 0.5);
+    color: @on-background;
+}
+
+.modules-right{
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    background-color: alpha(@background, 0.5);
+    color: @on-background;
+}
+
+#custom-cava {
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans Symbols";
+    margin: 0 20px;
+    letter-spacing: 2px;       /* Fixes overlapping characters */
+    transition: all 0.3s ease;
+}
+
+#custom-cava:hover {
+    color: @primary; /* Switches to soft red on hover */
+  }

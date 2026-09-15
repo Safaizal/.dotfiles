@@ -40,7 +40,7 @@ case "$CHOSEN" in
 		;;
 	
 	*"Blutooth"*)
-		blueman-manger || kitty --class floating_control -e bluetoothctl
+		blueman-manager
 		;;
 	
 	*"CPU"*)
