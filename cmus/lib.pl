@@ -1,5 +1,4 @@
 /home/faizal/Music/AnneMarie  Ed Sheeran  2002 Official Acoustic Video.mp3
-/home/faizal/Music/au_uu_SzH34yR2.mp3
 /home/faizal/Music/blooming_story.mp3
 /home/faizal/Music/Dead Mount Death Play Ending Full   Iolite (アイオライト)  by Inori Minase instrumental.mp3
 /home/faizal/Music/Dream lantern.mp3

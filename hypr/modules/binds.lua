@@ -13,6 +13,7 @@ local window_switch = "rofi -show window"
 ---------------------
 
 local mainMod     = "SUPER" -- Sets "Windows" key as main modifier
+local config      = "/home/faizal/.config/"
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
@@ -25,13 +26,17 @@ hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("firefox"))
-hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("/home/faizal/.config/waybar/scripts/launch.sh"))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/faizal/.config/rofi/scripts/wall_switch.sh"))
-hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("kitty -e cmus"))
+-- waybars
+hl.bind(mainMod .. " + ALT + 1", hl.dsp.exec_cmd(config .. "waybar/scripts/waybar-switch.sh" .. " minimal"))
+hl.bind(mainMod .. " + ALT + 2", hl.dsp.exec_cmd(config .. "waybar/scripts/waybar-switch.sh" .. " full"))
+
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(config .. "rofi/scripts/wall_switch.sh"))
+
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("kitty -e rmpc"))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(command))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("swaync-client -t -sw"))
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("~/.dotfiles/hypr/hyprlock/scripts/generate-config.sh && hyprlock"))
-hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("/home/faizal/.config/rofi/scripts/powermenu.sh"))
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(config .. "rofi/scripts/powermenu.sh"))
 hl.bind("Print", hl.dsp.exec_cmd("hyprshot -m region --output-folder ~/Pictures/Screenshots"))
 
 -- Move focus with mainMod + arrow keys
@@ -86,3 +91,4 @@ hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true })
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
+

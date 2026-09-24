@@ -19,3 +19,6 @@ Thumbs.db
 
 # Keep empty dirs
 !.gitkeep
+
+# Local utility scripts (not tracked)
+sync-configs.sh

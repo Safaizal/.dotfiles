@@ -24,7 +24,7 @@ set = true
 [templates.waybar]
 input_path = "~/.config/matugen/templates/waybar.css"
 output_path = "~/.config/waybar/styles/themes/colors.css"
-post_hook = "~/.config/waybar/scripts/waybar-switch.sh minimal"
+post_hook = "~/.config/waybar/scripts/waybar-switch.sh full"
 
 [templates.cava]
 input_path = '~/.config/matugen/templates/cava-cus.ini'
