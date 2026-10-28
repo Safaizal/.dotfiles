@@ -410,3 +410,52 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-09-22T21:36:49 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
 2026-09-23T09:02:46 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
 2026-09-23T21:43:22 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
+2026-09-24T21:22:55 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
+2026-09-25T10:37:37 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
+2026-09-26T13:43:19 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
+2026-09-26T18:51:16 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
+2026-09-26T22:05:24 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/10. 忍び寄るズニーシャ.flac"; Failed to open "/home/faizal/Music/One Piece OST/10. 忍び寄るズニーシャ.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/10. 忍び寄るズニーシャ.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/11. ジンベエアイキャッチ.flac"; Failed to open "/home/faizal/Music/One Piece OST/11. ジンベエアイキャッチ.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/11. ジンベエアイキャッチ.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/12. 日和の想い.flac"; Failed to open "/home/faizal/Music/One Piece OST/12. 日和の想い.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/12. 日和の想い.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/13. ルフィ復活.flac"; Failed to open "/home/faizal/Music/One Piece OST/13. ルフィ復活.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/13. ルフィ復活.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/14. 解放の戦士.flac"; Failed to open "/home/faizal/Music/One Piece OST/14. 解放の戦士.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/14. 解放の戦士.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/15. おれの最高地点.flac"; Failed to open "/home/faizal/Music/One Piece OST/15. おれの最高地点.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/15. おれの最高地点.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/16. 世界で最もふざけた能力.flac"; Failed to open "/home/faizal/Music/One Piece OST/16. 世界で最もふざけた能力.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/16. 世界で最もふざけた能力.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/17. ギア5の戦い.flac"; Failed to open "/home/faizal/Music/One Piece OST/17. ギア5の戦い.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/17. ギア5の戦い.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/18. リンリンとの別れ.flac"; Failed to open "/home/faizal/Music/One Piece OST/18. リンリンとの別れ.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/18. リンリンとの別れ.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/19. ワノ国の20年.flac"; Failed to open "/home/faizal/Music/One Piece OST/19. ワノ国の20年.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/19. ワノ国の20年.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/20. 目指すべき世界.flac"; Failed to open "/home/faizal/Music/One Piece OST/20. 目指すべき世界.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/20. 目指すべき世界.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/21. 火事場の底力.flac"; Failed to open "/home/faizal/Music/One Piece OST/21. 火事場の底力.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/21. 火事場の底力.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/22. 終結、ルフィVS.カイドウ.flac"; Failed to open "/home/faizal/Music/One Piece OST/22. 終結、ルフィVS.カイドウ.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/22. 終結、ルフィVS.カイドウ.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/23. 龍王の最後.flac"; Failed to open "/home/faizal/Music/One Piece OST/23. 龍王の最後.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/23. 龍王の最後.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/24. 火祭り～祭りは最高潮！！～.flac"; Failed to open "/home/faizal/Music/One Piece OST/24. 火祭り～祭りは最高潮！！～.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/24. 火祭り～祭りは最高潮！！～.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/25. 人々の願い～平和への祈りを天へ～.flac"; Failed to open "/home/faizal/Music/One Piece OST/25. 人々の願い～平和への祈りを天へ～.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/25. 人々の願い～平和への祈りを天へ～.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/26. ワノ国将軍 光月モモの助.flac"; Failed to open "/home/faizal/Music/One Piece OST/26. ワノ国将軍 光月モモの助.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/26. ワノ国将軍 光月モモの助.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/27. 海軍大将 緑牛.flac"; Failed to open "/home/faizal/Music/One Piece OST/27. 海軍大将 緑牛.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/27. 海軍大将 緑牛.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/28. 四皇 赤髪のシャンクス.flac"; Failed to open "/home/faizal/Music/One Piece OST/28. 四皇 赤髪のシャンクス.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/28. 四皇 赤髪のシャンクス.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/29. 平和が戻ったワノ国.flac"; Failed to open "/home/faizal/Music/One Piece OST/29. 平和が戻ったワノ国.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/29. 平和が戻ったワノ国.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/30. ワノ国・終幕.flac"; Failed to open "/home/faizal/Music/One Piece OST/30. ワノ国・終幕.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/30. ワノ国・終幕.flac"
+2026-09-27T08:50:34 exception: Failed to decode "/home/faizal/Music/One Piece OST/31. ルフィの夢.flac"; Failed to open "/home/faizal/Music/One Piece OST/31. ルフィの夢.flac": No such file or directory
+2026-09-27T08:50:34 player: played "One Piece OST/31. ルフィの夢.flac"
